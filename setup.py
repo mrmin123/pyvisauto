@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyvisauto",
-    version="1.0.2",
+    version="1.0.3",
     author="Minyoung Choi",
     author_email="minyoung.choi@gmail.com",
     description="pyvisauto - a vision-based automation tool",
@@ -15,7 +15,7 @@ setuptools.setup(
     packages=['pyvisauto'],
     install_requires=[
         'opencv-contrib-python-headless~=4.1.2.30',
-        'pillow~=6.2.1',
+        'pillow~=7.2.0',
         'pyautogui~=0.9.48',
         'pytesseract~=0.3.0',
         'numpy~=1.17.4',
